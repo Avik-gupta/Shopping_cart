@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { decrementQty, incrementQty, removeProduct } from "../Redux/productSlice";
 
+
 function Cart()
 {
    const data = useSelector(state=>state.productCart.value)
